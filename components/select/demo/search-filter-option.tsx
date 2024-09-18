@@ -9,9 +9,9 @@ const App: React.FC = () => (
       (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
     }
     options={[
-      { value: '1', label: 'Jack' },
-      { value: '2', label: 'Lucy' },
-      { value: '3', label: 'Tom' },
+      { value: '1', label: '30008 学习计划' },
+      { value: '2', label: '30007 阅读绘本2次' },
+      { value: '3', label: '30006 每日登录' },
     ]}
   />
 );
